@@ -30,9 +30,13 @@ const DEFAULT_HFOV_DEG = 60;
  * 
  * - worldToVoxelScale converts world-space units (cm, ft, etc) to voxels
  * - screenScale determines how large the "window" is in virtual space. The voxel volume always occupies [(-1,-1,-1), (1,1,1)]
+ * - screenPos determines where in voxel space the screen is located
+ * - screenTarget determines where in voxel space the screen looks towards
  */
 const WORLD_TO_VOXEL_SCALE = 0.0075;
 const SCREEN_SCALE = 0.2 * 1.684;
+const SCREEN_POSITION = [0.0, 0.0, -0.5];
+const SCREEN_TARGET = [0.0, 0.0, 0.0];
 
 /**
  * the FaceLandmarker indices for the left and right irises
@@ -387,8 +391,8 @@ export default function WindowModeDemoPage() {
                 screenScale: SCREEN_SCALE,
                 worldToVoxelScale: WORLD_TO_VOXEL_SCALE,
 
-                screenPos: [0.0, 0.0, -0.5],
-                screenTarget: [0.0, 0.0, 0.0]
+                screenPos: SCREEN_POSITION,
+                screenTarget: SCREEN_TARGET
               });
             }
           }
