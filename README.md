@@ -1,4 +1,4 @@
-# WindowMode
+# Window Mode
 The is a demo of True3D labs' "window mode". Check out the live demo [here](https://lab.true3d.com/targets). 
 
 ![Demo](demo.gif)
@@ -9,6 +9,8 @@ This is a NextJS project. The core funcionality driving the demo can be found at
 Window mode is a 3D camera controller that emulates a window into the virtual world. You can imagine that your computer screen is really a portal into a 3D space.
 
 It works by tracking the position of your face relative to the webcam, then re-rendering the 3D scene from the perspective of your face. This gives off the illusion that the 3D scene is really there, behind the screen, without the need for specialized hardware.
+
+[more here](https://x.com/DannyHabibs/status/1973418113996861481)
 
 ## How does it work?
 Here we use [MediaPipe](https://www.npmjs.com/package/@mediapipe/tasks-vision)'s `FaceLandmarker` system to extract the positions of the user's eyes. We use the apparent diameter of the eyes, along with the webcam's FOV in order to estimate the distance of the user's head from the webcam. We can then get an accurate estimate for the metric position of the user's eyes, relative to the webcam. 
