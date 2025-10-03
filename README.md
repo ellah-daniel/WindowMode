@@ -12,6 +12,8 @@ It works by tracking the position of your face relative to the webcam, then re-r
 
 [more here](https://x.com/DannyHabibs/status/1973418113996861481)
 
+It also works on any 3D video on [splats](https://www.splats.com/). Just click on the head icon in the player bar
+
 ## How does it work?
 Here we use [MediaPipe](https://www.npmjs.com/package/@mediapipe/tasks-vision)'s `FaceLandmarker` system to extract the positions of the user's eyes. We use the apparent diameter of the eyes, along with the webcam's FOV in order to estimate the distance of the user's head from the webcam. We can then get an accurate estimate for the metric position of the user's eyes, relative to the webcam. 
 
