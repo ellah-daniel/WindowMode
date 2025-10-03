@@ -142,12 +142,9 @@ export default function WindowModeDemoPage() {
   /**
    * imports spatial-player
    * spatial-player uses top-level async/await so we need to import dynamically
-   * 
-   * TODO: fix this jank
    */
   useEffect(() => {
-    // @ts-ignore
-    import('spatial-player/src/index.js')
+    import('spatial-player/src/index.js' as any)
   }, []);
 
   /**
@@ -385,8 +382,7 @@ export default function WindowModeDemoPage() {
               //with the standard off-axis projection formula. for an overview of this, see
               // https://en.wikibooks.org/wiki/Cg_Programming/Unity/Projection_for_Virtual_Reality
 
-              // @ts-ignore
-              vvRef.current.setCamera('portal', {
+              (vvRef.current as any).setCamera('portal', {
                 eyePosWorld: avgPos,
                 screenScale: SCREEN_SCALE,
                 worldToVoxelScale: WORLD_TO_VOXEL_SCALE,
@@ -569,7 +565,7 @@ export default function WindowModeDemoPage() {
           ) : (
             // WebGPU supported - show the player
             <>
-              {/* @ts-ignore */}
+              {/* @ts-expect-error - vv-player is a custom element from spatial-player */}
               <vv-player
                 ref={vvRef}
                 src={vvUrl}
