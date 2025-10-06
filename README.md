@@ -1,5 +1,5 @@
 # Window Mode
-The is a demo of True3D labs' "window mode". Check out the live demo [here](https://lab.true3d.com/targets). 
+This is a demo of True3D labs' "window mode". Check out the live demo [here](https://lab.true3d.com/targets). 
 
 ![Demo](demo.gif)
 
@@ -42,3 +42,8 @@ The targets are stored in a `.vv` (voxel volume) file. This is our file format f
 You can render `.splv`s with `spatial-player`. If you want to create `.splv`s or `.vv`s to render, you should check out our python package `spatialstudio`. You can `pip` install it, check out the [documentation](https://pypi.org/project/spatialstudio/). If you have any questions/suggestions/requests for us or our stack, reach out to us on [discord](https://discord.gg/seBPMUGnhR).
 
 Currently `spatial-player` and `spatialstudio` are only availble to install and use, but we will be open-sourcing them soon!
+
+## Troubleshooting
+
+### WebGPU Error
+If you encounter an error related to WebGPU not being enabled, make sure you go to your browser's developer flags to enable it. This is required for the 3D rendering functionality.
