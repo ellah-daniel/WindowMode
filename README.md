@@ -3,6 +3,21 @@ The is a demo of True3D labs' "window mode". Check out the live demo [here](http
 
 ![Demo](demo.gif)
 
+## Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/True3DLabs/WindowMode.git
+cd WindowMode
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Project Structure
+
 This is a NextJS project. The core funcionality driving the demo can be found at `components/WindowModeDemoPage.tsx`. We also use a small web worker for offloading tasks to a background thread, this can be found at `components/LandmarkWorker.tsx`. The file containing the 3D scene we render is stored at `public/target_visualization.vv`. `.vv` (voxel volume) is our file format for voxel-based 3D static scenes. More on this in "How do we render the scene."
 
 ## What is window mode?
