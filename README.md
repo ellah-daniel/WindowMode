@@ -39,6 +39,16 @@ All the rendering for this demo is done with our `spatial-player` library. You c
 
 The targets are stored in a `.vv` (voxel volume) file. This is our file format for static, voxel-based 3D scenes. `spatial-player` also supports realtime rendering and playback of 3D volumetric videos, this is how our [Steamboat Willie Demo](https://www.splats.com/watch/702?window_mode=true&start_time=21) is rendered. Our volumetric videos are stored in `.splv` files.
 
+### Using Your Own 3D Models
+
+Want to use your own 3D artwork? You can easily convert any static GLB 3D model into a `.vv` file using our conversion tool:
+
+**[Convert GLB to VV →](https://www.splats.com/tools/voxelize)**
+
+Simply upload your GLB file (up to 500MB) and download the converted `.vv` file. Then replace the existing `.vv` files in the `public/` directory with your own!
+
+
+
 You can render `.splv`s with `spatial-player`. If you want to create `.splv`s or `.vv`s to render, you should check out our python package `spatialstudio`. You can `pip` install it, check out the [documentation](https://pypi.org/project/spatialstudio/). If you have any questions/suggestions/requests for us or our stack, reach out to us on [discord](https://discord.gg/seBPMUGnhR).
 
 Currently `spatial-player` and `spatialstudio` are only availble to install and use, but we will be open-sourcing them soon!

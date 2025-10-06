@@ -365,7 +365,7 @@ export default function WindowModeDemoPage() {
             let irisPosLeft = irisPosition(irisLeft, minDist);
 
             //update vv camera
-            //.vv (voxel volume) is out format for 3D voxel scenes
+            //.vv (voxel volume) is our format for 3D voxel scenes
             //spatial-player has utilties for rendering them
             if (customElements.get('vv-player')) {
               let avgPos = [
